@@ -24,6 +24,7 @@ class School
     @roster.each do |grade|
     #   grade = grade.sort
       g2 = grade[1].sort
+      grade[1] = g2
       binding.pry
     end
   end
