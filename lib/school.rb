@@ -23,7 +23,7 @@ class School
     @roster = Hash[@roster.sort]
     @roster.each do |grade|
       grade[1].sort
-      binding.pry
+    
     end
   end
 end
