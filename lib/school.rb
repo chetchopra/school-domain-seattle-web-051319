@@ -1,4 +1,4 @@
-class School
+class school
   def initialize(name)
     @name = name
     @roster = {}
