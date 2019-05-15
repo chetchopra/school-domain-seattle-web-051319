@@ -23,7 +23,7 @@ class School
     @roster = @roster.sort
     @roster.each do |grade|
     #   grade = grade.sort
-      g2 = grade[0]
+      g2 = grade[1]
       binding.pry
     end
   end
