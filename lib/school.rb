@@ -20,6 +20,7 @@ class School
   end
   
   def sort
+    sorted_by_key = Hash[@roster.sort]
     @roster = @roster.sort
     binding.pry
     # @roster.each do |grade|
