@@ -1,3 +1,5 @@
+require 'pry'
+
 class School
   attr_accessor :name, :roster
   def initialize(name)
@@ -21,7 +23,7 @@ class School
     @roster = @roster.sort
     @roster.each do |grade|
       puts grade 
+      binding.pry
     end
   end
-    
 end
