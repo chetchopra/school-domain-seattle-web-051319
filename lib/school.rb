@@ -22,7 +22,7 @@ class School
   def sort
     @roster = @roster.sort
     @roster.each do |grade|
-      self.roster.sort
+      puts grade
       binding.pry
     end
   end
