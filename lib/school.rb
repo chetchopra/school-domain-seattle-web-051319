@@ -21,9 +21,10 @@ class School
   
   def sort
     @roster = @roster.sort
-    @roster.each do |grade|
-      g2 = grade[1].sort
-      grade[1] = g2
-    end
+    binding.pry
+    # @roster.each do |grade|
+    #   g2 = grade[1].sort
+    #   grade[1] = g2
+    # end
   end
 end
