@@ -23,7 +23,7 @@ class School
     @roster = @roster.sort
     @roster.each do |grade|
     #   grade = grade.sort
-      puts grade
+      puts grade.sort
       binding.pry
     end
   end
